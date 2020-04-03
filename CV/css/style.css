@@ -1,0 +1,36 @@
+body{
+  margin: 30px;
+  background-color: lightblue;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+li{
+  padding-bottom: 0.5rem;
+  height: 2rem;
+  margin-bottom: 20px;
+  font-size: 16px;;
+}
+
+.box-left{
+  float: left;
+  width: 40%;
+  padding: 20px 50px;
+}
+
+.box-right{
+  float: left;
+  width: 60%;
+  padding-left: 30px;
+  background-color: #e0feff;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1000px){
+  .box-left, .box-right {
+    width: 100%;
+    padding; 0;
+  }
+}
